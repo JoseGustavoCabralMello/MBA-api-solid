@@ -24,7 +24,7 @@ describe('Get User Profile Use Case', () => {
       userId: createdUser.id,
     })
 
-    expect(user.name).toEqual('John Deo')
+    expect(user.name).toEqual('John Doe')
   })
 
   it('should not be able to get user profile with wrong id', async () => {
